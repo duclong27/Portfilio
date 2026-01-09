@@ -160,7 +160,7 @@ export default function Home() {
                     <p className="home__lead">{t.heroLead}</p>
 
                     <div className="home__cta">
-                        <a className="home__btn home__btn--solid" href="/experience">
+                        <a className="home__btn home__btn--solid" href="https://portfilio-rouge.vercel.app/experience">
                             {t.ctaExperience}
                         </a>
                         <a className="home__btn home__btn--ghost" href="#contact">
