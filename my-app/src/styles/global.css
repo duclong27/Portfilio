@@ -11,6 +11,10 @@
     /* padding/border không làm tăng width ngoài ý muốn */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     margin: 0;

@@ -24,7 +24,7 @@ const content = {
         heroTitle: " Nguyễn Đức Long — Fullstack Developer",
         heroLead:
             "Xây dựng ứng dụng web sạch, dễ bảo trì, chú trọng performance, bảo mật và trải nghiệm người dùng.",
-        ctaExperience: "Xem kinh nghiệm",
+        ctaProfile: "Xem Profile",
         ctaContact: "Liên hệ nhanh",
         stats: [
             { value: "6+", label: "Tháng kinh nghiệm" },
@@ -60,7 +60,7 @@ const content = {
         heroTitle: "Nguyen Duc Long — Fullstack Developer",
         heroLead:
             "I build clean, maintainable web applications with a focus on performance, security, and user experience.",
-        ctaExperience: "View experience",
+        ctaProfile: "View Profile",
         ctaContact: "Quick contact",
         stats: [
             { value: "6+", label: "Months of experience" },
@@ -160,8 +160,8 @@ export default function Home() {
                     <p className="home__lead">{t.heroLead}</p>
 
                     <div className="home__cta">
-                        <a className="home__btn home__btn--solid" href="https://portfilio-rouge.vercel.app/experience">
-                            {t.ctaExperience}
+                        <a className="home__btn home__btn--solid" href="#profile">
+                            {t.ctaProfile}
                         </a>
                         <a className="home__btn home__btn--ghost" href="#contact">
                             {t.ctaContact}
@@ -190,7 +190,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="home__panel">
+            <div id="profile" className="home__panel">
                 <div className="home__section">
                     <h2 className="home__section-title">{t.aboutTitle}</h2>
 
